@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,
+html {
+  height: calc(100% - 4em);
+}
+
+body {
+  background: rgb(114, 114, 114);
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+  display: grid;
+  align-items: center;
+  /* font-size: 3em; */
+  /* padding: 2em; */
+}
+
+
+@media screen and (min-width: 320px) {
+
+  body,
+  html {
+    padding: 5px;
+  }
+
+  .heading {
+    margin-top: 15px;
+  }
+
+  .jokes {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+
+  .jokes {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .jokes {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  body,
+  html {
+    padding: 20px;
+  }
+
+  .jokes {
+    font-size: 28px;
+  }
+}
